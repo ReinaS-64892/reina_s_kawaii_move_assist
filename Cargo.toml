@@ -1,8 +1,9 @@
-[package]
-name = "stick_less_kawaii_move_assist"
-version = "0.1.0"
+[workspace]
+resolver = "2"
+members = ["kma_*", "open_vr_kma_driver"]
+
+[workspace.package]
+version = "0.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+authors = ["Reina_Sakiria"]
+license = "MIT"
